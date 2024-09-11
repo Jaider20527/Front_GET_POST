@@ -30,3 +30,67 @@ table {
     color: white;
     z-index: 1;
   }
+
+/*Metodo POST*/
+
+/* Estilo general del formulario */
+.form-styled {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo de los grupos de formulario */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo de los labels */
+  .form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  /* Estilo de los inputs y selects */
+  .form-control {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  /* Estilo del botón de envío */
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Alineación del título */
+  .text-center {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsividad */
+  @media (max-width: 576px) {
+    .form-styled {
+      padding: 15px;
+    }
+    .btn-primary {
+      font-size: 1rem;
+    }
+  }
